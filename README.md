@@ -17,31 +17,29 @@ A Claude Code skill for generating architecture diagrams on a live Excalidraw ca
 
 ## Examples
 
-<!-- TODO: Add generated example images -->
-
 ### Microservices Architecture
 
-A typical web application with frontend, API gateway, microservices, message queue, and databases.
+> *"Draw a microservices architecture with: React frontend, API Gateway, Auth Service, User Service, Order Service, a RabbitMQ message queue, PostgreSQL database, and Redis cache. Use vertical flow layout."*
 
-<!-- ![Microservices Architecture](examples/microservices.png) -->
+![Microservices Architecture](examples/microservices.png)
 
 ### CI/CD Pipeline
 
-A horizontal flow showing the journey from code push to production deployment.
+> *"Draw a CI/CD pipeline: Developer pushes to GitHub, triggers GitHub Actions, which runs lint, test, build stages, then deploys to staging, runs E2E tests, and promotes to production. Horizontal pipeline layout."*
 
-<!-- ![CI/CD Pipeline](examples/cicd-pipeline.png) -->
+![CI/CD Pipeline](examples/cicd-pipeline.png)
 
 ### Event-Driven System
 
-Hub-and-spoke pattern with a central event bus connecting producers and consumers.
+> *"Draw an event-driven architecture with a central Kafka event bus. Producers: Payment Service, Order Service, User Service. Consumers: Notification Service, Analytics Service, Audit Logger. Hub-and-spoke layout."*
 
-<!-- ![Event-Driven System](examples/event-driven.png) -->
+![Event-Driven System](examples/event-driven.png)
 
 ### Data Pipeline
 
-ETL flow from data sources through transformation stages to analytics and storage.
+> *"Draw a data pipeline: data ingested from REST API and S3 bucket, processed by Apache Spark, stored in a data lake, transformed by dbt, loaded into Snowflake warehouse, served to a Grafana dashboard. Horizontal flow."*
 
-<!-- ![Data Pipeline](examples/data-pipeline.png) -->
+![Data Pipeline](examples/data-pipeline.png)
 
 ## Installation
 
